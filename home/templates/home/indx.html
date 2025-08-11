@@ -27,6 +27,8 @@
             text-decoration:none;
             border-radius:3px
             }
+            .nav { background: #444; padding: 10px; margin: 10px 0; }
+            .nav a { color: white; text-decoration: none; margin-right: 20px; }
             </style>
 
     </head>
@@ -38,6 +40,10 @@
         <h2> Welcome </h2>
         <p> Manage your Restaurant with our system </p>
         <a href = '#' class='btn'>Get Started</a>
+    </div>
+    <div class="nav">
+            <a href="{% url 'home' %}">Home</a>
+                <a href="{% url 'about' %}">About</a>
     </div>
 </body>
 </html>
