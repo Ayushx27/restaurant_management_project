@@ -7,6 +7,8 @@ def home(request):
    
 def about(request):
         return render(request, 'home/about.html')
+def contact(request):
+        return render(request, 'home/contact.html')
 def menu(request):
         menu_items = [
                 {'name': 'Margherita Pizza', 'price': '$12.99', 'description': 'Fresh tomato and mozzarella'},
